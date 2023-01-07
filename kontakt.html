@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72335942-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-72335942-2');
+</script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktujte nás</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Neváhejte nás kdykoli kontaktovat</h1>
+        <form action="mailer.php" method="post" class="box">
+            <input type="text" name="name" placeholder="Jméno a příjmení"><br> 
+            <input type="email" name="email" placeholder="Email"><br> 
+            <textarea name="message" cols="30" rows="10"></textarea><br> 
+            <input type="submit" value="Odeslat">
+        </form>
+        <a href="index.html">Zpět na úvodní stranu</a>
+    </div>
+    
+</body>
+</html>
